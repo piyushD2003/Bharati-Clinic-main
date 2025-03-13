@@ -1,0 +1,21 @@
+# Django
+*.log
+*.pot
+*.pyc
+**/__pycache__/
+**/migrations/00*.py
+db.sqlite3
+media
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.ebextensions/*
+.github/*
+.vscode/*
+.env
+*.out
+data/*
+myenv/*
+newenv/*
+nenv/*
